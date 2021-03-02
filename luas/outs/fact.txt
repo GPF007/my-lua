@@ -1,0 +1,19 @@
+<header>
+0+ params 0 slots 1 upvalues, 0 locals 4 constant 1 function
+	1	[-]	CLOSURE  	0 0	; 0
+	2	[-]	SETTABUP 	0 -1 0	; ENV_ "add"
+	3	[-]	GETTABUP 	0 0 -2	; ENV_ "print"
+	4	[-]	LOADK    	1 -3	; 3
+	5	[-]	CALL     	0 2 1
+	6	[-]	GETTABUP 	0 0 -2	; ENV_ "print"
+	7	[-]	GETTABUP 	1 0 -1	; ENV_ "add"
+	8	[-]	LOADK    	2 -3	; 3
+	9	[-]	LOADK    	3 -4	; 10
+	10	[-]	CALL     	1 3 0
+	11	[-]	CALL     	0 0 1
+	12	[-]	RETURN   	0 1
+<header>
+0 params 0 slots 0 upvalues, 2 locals 0 constant 0 function
+	1	[-]	ADD      	2 0 1
+	2	[-]	RETURN   	2 2
+	3	[-]	RETURN   	0 1
